@@ -1,70 +1,81 @@
 export const data = [
   {
-    question: 'I&apos;ve been waiting ____ three hours.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'for',
+    question: "I've been waiting ____ three hours.",
+    answerOptions: [
+      { answer: 'during', isCorrect: false },
+      { answer: 'for', isCorrect: true },
+    ],
   },
   {
-    question: 'I like to go swimming ____ the summer.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'during',
+    question: 'I only like to go swimming ____ the summer.',
+    answerOptions: [
+      { answer: 'during', isCorrect: true },
+      { answer: 'for', isCorrect: false },
+    ],
   },
   {
-    question: 'In Kyiv, it&apos;s usually very cold during the winter.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'during',
+    question: "In Kyiv, it's usually very cold ____ the winter.",
+    answerOptions: [
+      { answer: 'during', isCorrect: true },
+      { answer: 'for', isCorrect: false },
+    ],
   },
   {
-    question: 'Don&apos;t look at your mobile phone ____ dinner!',
-    option1: 'during',
-    option2: 'for',
-    answer: 'during',
+    question: "Don't look at your mobile phone ____ dinner!",
+    answerOptions: [
+      { answer: 'during', isCorrect: true },
+      { answer: 'for', isCorrect: false },
+    ],
   },
   {
-    question: 'I&apos;ve been learning English ____ five years.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'for',
+    question: "I've been learning English ____ five years.",
+    answerOptions: [
+      { answer: 'during', isCorrect: false, id: 1 },
+      { answer: 'for', isCorrect: true, id: 2 },
+    ],
   },
   {
-    question: 'He has been working out every day ____ six months now',
-    option1: 'during',
-    option2: 'for',
-    answer: 'for',
+    question: 'He has been working out every day ____ six months now.',
+    answerOptions: [
+      { answer: 'during', isCorrect: false, id: 1 },
+      { answer: 'for', isCorrect: true, id: 2 },
+    ],
   },
   {
-    question: 'Please don&apos;t talk ____ the film.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'during',
-  },
-  {
-    question: '____ my vacation, I took trip to the Carpathian Mountains.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'for',
+    question: "Please don't talk ____ the film.",
+    answerOptions: [
+      { answer: 'during', isCorrect: true, id: 1 },
+      { answer: 'for', isCorrect: false, id: 2 },
+    ],
   },
   {
     question:
-      'The Carpathian Mountains were so beautiful, but it rained ten times ____ my trip.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'during',
+      'I took trip to the Carpathian Mountains. It was so beautiful! But, it rained ten times ____ my trip.',
+    answerOptions: [
+      { answer: 'during', isCorrect: true, id: 1 },
+      { answer: 'for', isCorrect: false, id: 2 },
+    ],
   },
   {
     question:
       'If you visit Lviv, make sure you try the amazing chocolate ____ your stay.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'during',
+    answerOptions: [
+      { answer: 'during', isCorrect: true, id: 1 },
+      { answer: 'for', isCorrect: false, id: 2 },
+    ],
   },
   {
     question: 'You should brush your teeth ____ two minutes twice a day.',
-    option1: 'during',
-    option2: 'for',
-    answer: 'for',
+    answerOptions: [
+      { answer: 'during', isCorrect: false, id: 1 },
+      { answer: 'for', isCorrect: true, id: 2 },
+    ],
+  },
+  {
+    question: 'I usually wake up a few times ____ the night.',
+    answerOptions: [
+      { answer: 'during', isCorrect: true, id: 1 },
+      { answer: 'for', isCorrect: false, id: 2 },
+    ],
   },
 ]
